@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C853BA1C59A9280040F2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853B91C59A9280040F2F9 /* main.m */; };
+		41C853BD1C59A9280040F2F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853BC1C59A9280040F2F9 /* AppDelegate.m */; };
+		41C853BF1C59A9280040F2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C853BE1C59A9280040F2F9 /* Assets.xcassets */; };
+		41C853C21C59A9280040F2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C853C01C59A9280040F2F9 /* LaunchScreen.storyboard */; };
+		41C853CD1C59A9280040F2F9 /* WZGUnloginViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853CC1C59A9280040F2F9 /* WZGUnloginViewTests.m */; };
+		41C853D81C59A9280040F2F9 /* WZGUnloginViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853D71C59A9280040F2F9 /* WZGUnloginViewUITests.m */; };
+		41C853E71C59A9470040F2F9 /* WZGUnloginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853E61C59A9470040F2F9 /* WZGUnloginView.m */; };
+		41C853E91C59A9570040F2F9 /* WZGUnloginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C853E81C59A9570040F2F9 /* WZGUnloginView.xib */; };
+		41C853EB1C59A9630040F2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C853EA1C59A9630040F2F9 /* Main.storyboard */; };
+		41C853EE1C59A9EE0040F2F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C853ED1C59A9EE0040F2F9 /* ViewController.m */; };
+		41C853F01C59AA820040F2F9 /* unLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853EF1C59AA820040F2F9 /* unLogin.png */; };
+		41C853F21C59AB0B0040F2F9 /* button_login_sina.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853F11C59AB0B0040F2F9 /* button_login_sina.png */; };
+		41C853F41C59AB0F0040F2F9 /* button_login_sina_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853F31C59AB0F0040F2F9 /* button_login_sina_clicked.png */; };
+		41C853F61C59AB140040F2F9 /* button_login_sina_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853F51C59AB140040F2F9 /* button_login_sina_6.png */; };
+		41C853F81C59AB410040F2F9 /* button_login_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853F71C59AB410040F2F9 /* button_login_wechat.png */; };
+		41C853FA1C59AB450040F2F9 /* button_login_wechat_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C853F91C59AB450040F2F9 /* button_login_wechat_clicked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C853C91C59A9280040F2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C853AD1C59A9280040F2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C853B41C59A9280040F2F9;
+			remoteInfo = WZGUnloginView;
+		};
+		41C853D41C59A9280040F2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C853AD1C59A9280040F2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C853B41C59A9280040F2F9;
+			remoteInfo = WZGUnloginView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C853B51C59A9280040F2F9 /* WZGUnloginView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZGUnloginView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C853B91C59A9280040F2F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C853BB1C59A9280040F2F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C853BC1C59A9280040F2F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C853BE1C59A9280040F2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41C853C11C59A9280040F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41C853C31C59A9280040F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C853C81C59A9280040F2F9 /* WZGUnloginViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZGUnloginViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C853CC1C59A9280040F2F9 /* WZGUnloginViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZGUnloginViewTests.m; sourceTree = "<group>"; };
+		41C853CE1C59A9280040F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C853D31C59A9280040F2F9 /* WZGUnloginViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZGUnloginViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C853D71C59A9280040F2F9 /* WZGUnloginViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZGUnloginViewUITests.m; sourceTree = "<group>"; };
+		41C853D91C59A9280040F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C853E51C59A9470040F2F9 /* WZGUnloginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZGUnloginView.h; sourceTree = "<group>"; };
+		41C853E61C59A9470040F2F9 /* WZGUnloginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZGUnloginView.m; sourceTree = "<group>"; };
+		41C853E81C59A9570040F2F9 /* WZGUnloginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZGUnloginView.xib; sourceTree = "<group>"; };
+		41C853EA1C59A9630040F2F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		41C853EC1C59A9EE0040F2F9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C853ED1C59A9EE0040F2F9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C853EF1C59AA820040F2F9 /* unLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unLogin.png; sourceTree = "<group>"; };
+		41C853F11C59AB0B0040F2F9 /* button_login_sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_sina.png; sourceTree = "<group>"; };
+		41C853F31C59AB0F0040F2F9 /* button_login_sina_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_sina_clicked.png; sourceTree = "<group>"; };
+		41C853F51C59AB140040F2F9 /* button_login_sina_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_sina_6.png; sourceTree = "<group>"; };
+		41C853F71C59AB410040F2F9 /* button_login_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_wechat.png; sourceTree = "<group>"; };
+		41C853F91C59AB450040F2F9 /* button_login_wechat_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_wechat_clicked.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C853B21C59A9280040F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853C51C59A9280040F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853D01C59A9280040F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C853AC1C59A9280040F2F9 = {
+			isa = PBXGroup;
+			children = (
+				41C853B71C59A9280040F2F9 /* WZGUnloginView */,
+				41C853CB1C59A9280040F2F9 /* WZGUnloginViewTests */,
+				41C853D61C59A9280040F2F9 /* WZGUnloginViewUITests */,
+				41C853B61C59A9280040F2F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C853B61C59A9280040F2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C853B51C59A9280040F2F9 /* WZGUnloginView.app */,
+				41C853C81C59A9280040F2F9 /* WZGUnloginViewTests.xctest */,
+				41C853D31C59A9280040F2F9 /* WZGUnloginViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C853B71C59A9280040F2F9 /* WZGUnloginView */ = {
+			isa = PBXGroup;
+			children = (
+				41C853F91C59AB450040F2F9 /* button_login_wechat_clicked.png */,
+				41C853F71C59AB410040F2F9 /* button_login_wechat.png */,
+				41C853F51C59AB140040F2F9 /* button_login_sina_6.png */,
+				41C853F31C59AB0F0040F2F9 /* button_login_sina_clicked.png */,
+				41C853F11C59AB0B0040F2F9 /* button_login_sina.png */,
+				41C853EF1C59AA820040F2F9 /* unLogin.png */,
+				41C853BB1C59A9280040F2F9 /* AppDelegate.h */,
+				41C853BC1C59A9280040F2F9 /* AppDelegate.m */,
+				41C853EC1C59A9EE0040F2F9 /* ViewController.h */,
+				41C853ED1C59A9EE0040F2F9 /* ViewController.m */,
+				41C853E51C59A9470040F2F9 /* WZGUnloginView.h */,
+				41C853E61C59A9470040F2F9 /* WZGUnloginView.m */,
+				41C853E81C59A9570040F2F9 /* WZGUnloginView.xib */,
+				41C853EA1C59A9630040F2F9 /* Main.storyboard */,
+				41C853BE1C59A9280040F2F9 /* Assets.xcassets */,
+				41C853C01C59A9280040F2F9 /* LaunchScreen.storyboard */,
+				41C853C31C59A9280040F2F9 /* Info.plist */,
+				41C853B81C59A9280040F2F9 /* Supporting Files */,
+			);
+			path = WZGUnloginView;
+			sourceTree = "<group>";
+		};
+		41C853B81C59A9280040F2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C853B91C59A9280040F2F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C853CB1C59A9280040F2F9 /* WZGUnloginViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C853CC1C59A9280040F2F9 /* WZGUnloginViewTests.m */,
+				41C853CE1C59A9280040F2F9 /* Info.plist */,
+			);
+			path = WZGUnloginViewTests;
+			sourceTree = "<group>";
+		};
+		41C853D61C59A9280040F2F9 /* WZGUnloginViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41C853D71C59A9280040F2F9 /* WZGUnloginViewUITests.m */,
+				41C853D91C59A9280040F2F9 /* Info.plist */,
+			);
+			path = WZGUnloginViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C853B41C59A9280040F2F9 /* WZGUnloginView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C853DC1C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginView" */;
+			buildPhases = (
+				41C853B11C59A9280040F2F9 /* Sources */,
+				41C853B21C59A9280040F2F9 /* Frameworks */,
+				41C853B31C59A9280040F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZGUnloginView;
+			productName = WZGUnloginView;
+			productReference = 41C853B51C59A9280040F2F9 /* WZGUnloginView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C853C71C59A9280040F2F9 /* WZGUnloginViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C853DF1C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginViewTests" */;
+			buildPhases = (
+				41C853C41C59A9280040F2F9 /* Sources */,
+				41C853C51C59A9280040F2F9 /* Frameworks */,
+				41C853C61C59A9280040F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C853CA1C59A9280040F2F9 /* PBXTargetDependency */,
+			);
+			name = WZGUnloginViewTests;
+			productName = WZGUnloginViewTests;
+			productReference = 41C853C81C59A9280040F2F9 /* WZGUnloginViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41C853D21C59A9280040F2F9 /* WZGUnloginViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C853E21C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginViewUITests" */;
+			buildPhases = (
+				41C853CF1C59A9280040F2F9 /* Sources */,
+				41C853D01C59A9280040F2F9 /* Frameworks */,
+				41C853D11C59A9280040F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C853D51C59A9280040F2F9 /* PBXTargetDependency */,
+			);
+			name = WZGUnloginViewUITests;
+			productName = WZGUnloginViewUITests;
+			productReference = 41C853D31C59A9280040F2F9 /* WZGUnloginViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C853AD1C59A9280040F2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Rocky;
+				TargetAttributes = {
+					41C853B41C59A9280040F2F9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					41C853C71C59A9280040F2F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41C853B41C59A9280040F2F9;
+					};
+					41C853D21C59A9280040F2F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41C853B41C59A9280040F2F9;
+					};
+				};
+			};
+			buildConfigurationList = 41C853B01C59A9280040F2F9 /* Build configuration list for PBXProject "WZGUnloginView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C853AC1C59A9280040F2F9;
+			productRefGroup = 41C853B61C59A9280040F2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C853B41C59A9280040F2F9 /* WZGUnloginView */,
+				41C853C71C59A9280040F2F9 /* WZGUnloginViewTests */,
+				41C853D21C59A9280040F2F9 /* WZGUnloginViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C853B31C59A9280040F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C853F01C59AA820040F2F9 /* unLogin.png in Resources */,
+				41C853F81C59AB410040F2F9 /* button_login_wechat.png in Resources */,
+				41C853E91C59A9570040F2F9 /* WZGUnloginView.xib in Resources */,
+				41C853F41C59AB0F0040F2F9 /* button_login_sina_clicked.png in Resources */,
+				41C853F21C59AB0B0040F2F9 /* button_login_sina.png in Resources */,
+				41C853FA1C59AB450040F2F9 /* button_login_wechat_clicked.png in Resources */,
+				41C853BF1C59A9280040F2F9 /* Assets.xcassets in Resources */,
+				41C853F61C59AB140040F2F9 /* button_login_sina_6.png in Resources */,
+				41C853C21C59A9280040F2F9 /* LaunchScreen.storyboard in Resources */,
+				41C853EB1C59A9630040F2F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853C61C59A9280040F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853D11C59A9280040F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C853B11C59A9280040F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C853BD1C59A9280040F2F9 /* AppDelegate.m in Sources */,
+				41C853BA1C59A9280040F2F9 /* main.m in Sources */,
+				41C853EE1C59A9EE0040F2F9 /* ViewController.m in Sources */,
+				41C853E71C59A9470040F2F9 /* WZGUnloginView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853C41C59A9280040F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C853CD1C59A9280040F2F9 /* WZGUnloginViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C853CF1C59A9280040F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C853D81C59A9280040F2F9 /* WZGUnloginViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C853CA1C59A9280040F2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C853B41C59A9280040F2F9 /* WZGUnloginView */;
+			targetProxy = 41C853C91C59A9280040F2F9 /* PBXContainerItemProxy */;
+		};
+		41C853D51C59A9280040F2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C853B41C59A9280040F2F9 /* WZGUnloginView */;
+			targetProxy = 41C853D41C59A9280040F2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C853C01C59A9280040F2F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C853C11C59A9280040F2F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C853DA1C59A9280040F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41C853DB1C59A9280040F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C853DD1C59A9280040F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZGUnloginView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41C853DE1C59A9280040F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZGUnloginView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41C853E01C59A9280040F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZGUnloginViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZGUnloginView.app/WZGUnloginView";
+			};
+			name = Debug;
+		};
+		41C853E11C59A9280040F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZGUnloginViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZGUnloginView.app/WZGUnloginView";
+			};
+			name = Release;
+		};
+		41C853E31C59A9280040F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZGUnloginViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZGUnloginView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41C853E41C59A9280040F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZGUnloginViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiziguan.WZGUnloginViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZGUnloginView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C853B01C59A9280040F2F9 /* Build configuration list for PBXProject "WZGUnloginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C853DA1C59A9280040F2F9 /* Debug */,
+				41C853DB1C59A9280040F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C853DC1C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C853DD1C59A9280040F2F9 /* Debug */,
+				41C853DE1C59A9280040F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C853DF1C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C853E01C59A9280040F2F9 /* Debug */,
+				41C853E11C59A9280040F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C853E21C59A9280040F2F9 /* Build configuration list for PBXNativeTarget "WZGUnloginViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C853E31C59A9280040F2F9 /* Debug */,
+				41C853E41C59A9280040F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C853AD1C59A9280040F2F9 /* Project object */;
+}
